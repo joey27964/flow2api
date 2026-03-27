@@ -1,0 +1,1666 @@
+{
+  "inbounds": [
+    {
+      "tag": "socks-in",
+      "port": 10800,
+      "listen": "0.0.0.0",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy-0",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 10112,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-1",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 10122,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-2",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 10132,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-3",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 10152,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-4",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 12113,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-5",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 12112,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-6",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 12111,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-7",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 12133,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-8",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 12132,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-9",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 12131,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-10",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 12143,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-11",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 12142,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-12",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 12141,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-13",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 12123,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-14",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 12122,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-15",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 12121,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-16",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11112,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-17",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11113,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-18",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11114,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-19",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11111,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-20",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11116,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-21",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11117,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-22",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11118,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-23",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11115,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-24",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11132,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-25",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11133,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-26",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11134,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-27",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11136,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-28",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11137,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-29",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11131,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-30",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11135,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-31",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11138,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-32",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11143,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-33",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11142,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-34",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11141,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-35",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11122,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-36",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11123,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-37",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11124,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-38",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11126,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-39",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11127,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-40",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11121,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-41",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11125,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-42",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11128,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-43",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11150,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-44",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11151,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-45",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11152,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-46",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11153,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-47",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11154,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-48",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11155,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-49",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11157,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-50",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11156,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-51",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11159,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-52",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11158,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-53",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11161,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-54",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11160,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-55",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11163,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-56",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11162,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-57",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11165,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-58",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11164,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-59",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11166,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-60",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11167,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-61",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11168,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-62",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11169,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-63",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11170,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-64",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11172,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-65",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "shcloud.233netcloud.com",
+            "port": 11171,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-66",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11173,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-67",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11174,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-68",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11175,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-69",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11180,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-70",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11181,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-71",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11182,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-72",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11183,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-73",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11184,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-74",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "gzcloud.233netcloud.com",
+            "port": 11185,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-75",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11186,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "proxy-76",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "bjcloud.233netcloud.com",
+            "port": 11187,
+            "password": "3EABE5CD-55FD-70B3-9976-6966A3A97764"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.ctrip.com",
+          "allowInsecure": true
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPOnDemand",
+    "balancers": [
+      {
+        "tag": "proxy-balancer",
+        "selector": [
+          "proxy-"
+        ],
+        "strategy": {
+          "type": "roundRobin"
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "balancerTag": "proxy-balancer",
+        "domain": [
+          "googleapis.com",
+          "google.com"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "network": "tcp,udp"
+      }
+    ]
+  }
+}

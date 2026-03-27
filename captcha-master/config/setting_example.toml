@@ -1,0 +1,39 @@
+﻿[server]
+host = "0.0.0.0"
+port = 8060
+
+[storage]
+db_path = "data/captcha_service.db"
+
+[admin]
+username = "admin"
+password = "admin"
+
+[captcha]
+browser_count = 1
+browser_proxy_enabled = false
+browser_proxy_url = ""
+browser_launch_background = true
+browser_score_dom_wait_seconds = 25
+browser_recaptcha_settle_seconds = 3
+browser_score_test_warmup_seconds = 12
+browser_idle_ttl_seconds = 600
+flow_timeout = 300
+upsample_timeout = 300
+session_ttl_seconds = 1200
+node_name = "standalone-node"
+
+[log]
+level = "INFO"
+
+[cluster]
+role = "standalone"
+master_base_url = ""
+master_cluster_key = ""
+node_public_base_url = ""
+node_api_key = ""
+heartbeat_interval_seconds = 15
+node_weight = 100
+node_max_concurrency = 0  # 0 means follow browser_count
+master_node_stale_seconds = 120
+master_dispatch_timeout_seconds = 45
